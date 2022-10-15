@@ -1,8 +1,10 @@
 # Check-Status-Host
 Check-Status-Host is to find out the host is dead or alive, for example https://google.com, how to use this script is to write www.google.com
 
-
-
+### Example of hostname
+```py
+test_host = "www.google.com"
+```
 
 ### How to use Termux
 ```
