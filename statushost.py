@@ -10,7 +10,7 @@ def ping_host(host_name):
   return resp == 0
   
 # Test 
-test_host = "www.github.com" # example "www.google.com"
+test_host = "www.google.com" # example "www.google.com"
 result = ping_host(test_host)
 if result:
   print("\nStatus ({}): Is Alive".format(test_host))
